@@ -1,9 +1,97 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>hello</title>
-</head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Responsive Layout</title>
+  <style>
+    *{box-sizing: border-box;}
+    h1{
+      margin-bottom: 15px
+    }
+    p{
+      border: 1px solid black;
+      background-color: #A52A2A;
+      width: 90%;
+      margin-right: auto;
+      margin-left: auto;
+      font-family: Helvetica;
+      color: white;
+    }
+    .row{
+      width: 100%
+    }
+    @media (min-width: 1200px) {
+      .co-lg-1, .co-lg-2, .co-lg-3, .co-lg-4, .co-lg-5, .co-lg-6, .co-lg-7, .co-lg-8, .co-lg-9, .co-lg-10,.co-lg-11, .co-lg-12 {
+        float: left;
+        border: 1px solid green;}
+        .co-lg-1{width: 8.33%}
+        .co-lg-2{width: 16.66%}
+        .co-lg-3{width: 25%}
+        .co-lg-4{width: 33%}
+        .co-lg-5{width: 41.66%}
+        .co-lg-6{width: 50%}
+        .co-lg-7{width: 58.33%}
+        .co-lg-8{width: 66.66%}
+        .co-lg-9{width: 74.99%}
+        .co-lg-10{width: 83.33%}
+          .co-lg-11{width: 91.66%}
+          .co-lg-12{width: 100%}
+
+    }
+    @media (min-width: 950px) and (max-width: 1199px) {
+      .co-md-1, .co-md-2, .co-md-3, .co-md-4, .co-md-5, .co-md-6, .co-md-7, .co-md-8, .co-md-9, .co-md-10,.co-md-11, .co-md-12 {
+        float: left;
+        border: 1px solid green;}
+        .co-md-1{
+          width: 8.33%
+        }
+        .co-md-2{
+          width: 16.66%
+        }
+        .co-md-3{
+          width: 25%
+        }
+        .co-md-4{
+          width: 33%
+        }
+        .co-md-5{
+          width: 41.66%
+        }
+        .co-md-6{
+          width: 50%
+        }
+        .co-md-7{
+          width: 58.33%
+        }
+        .co-md-8{
+          width: 66.66%
+        }
+        .co-md-9{
+          width: 74.99%
+        }
+        .co-md-10{
+          width: 83.33%
+        }
+          .co-md-11{
+            width: 91.66%
+          }
+        .co-md-12{
+          width: 100%
+        }
+      }
+  </style>
+  </head>
 <body>
-<h1>hello hello </h1>
+<h1>Responsive layout </h1><div class="row">
+<div class="col-lg-3 col-md-6"><p>Item 1</p></div>
+<div class="col-lg-3 col-md-6"><p>Item 2 Wow this is cool</p></div>
+<div class="col-lg-3 col-md-6"><p>Item 3</p></div>
+<div class="col-lg-3 col-md-6"><p>Item 4</p></div>
+<div class="col-lg-3 col-md-6"><p>Item 5 This is cool</p></div>
+<div class="col-lg-3 col-md-6"><p>Item 6</p></div>
+<div class="col-lg-3 col-md-6"><p>Item 7</p></div>
+<div class="col-lg-3 col-md-6"><p>Item 8</p></div>
+</div>
 </body>
 </html>
